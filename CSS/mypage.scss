@@ -3,7 +3,7 @@
         background-color:tomato;
         margin: 50px 50px;
         display: flex;
-        width: 1200px;
+        width: 1220px;
         height: 600px; 
         .Wrapper1{
             margin: 50px;
@@ -12,8 +12,8 @@
             height: 500px;
             align-items: center;
             .box1{background-color: tomato;
-            width: 180px;
-            margin: 10px 10px;
+            width: 160px;
+            margin: 20px 20px;
 display: flex;
 justify-content: space-around;
 flex-direction: column;
@@ -22,7 +22,7 @@ flex-direction: column;
                 margin-bottom: 50px;
                 a{display: block;
                  background-color:skyblue;
-                 width: 180PX;
+                 width: 160PX;
                   }
              
              }
@@ -31,7 +31,7 @@ flex-direction: column;
         }
         .Wrapper2{margin: 50px;
             background-color: skyblue;
-            width: 700px;
+            width: 1020px;
             height: 500px;
 
         }

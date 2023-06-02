@@ -2,7 +2,7 @@
   background-color: tomato;
   margin: 50px 50px;
   display: flex;
-  width: 1200px;
+  width: 1220px;
   height: 600px;
 }
 .main .Wrap .Wrapper1 {
@@ -14,8 +14,8 @@
 }
 .main .Wrap .Wrapper1 .box1 {
   background-color: tomato;
-  width: 180px;
-  margin: 10px 10px;
+  width: 160px;
+  margin: 20px 20px;
   display: flex;
   justify-content: space-around;
   flex-direction: column;
@@ -28,11 +28,11 @@
 .main .Wrap .Wrapper1 .box1 li a {
   display: block;
   background-color: skyblue;
-  width: 180PX;
+  width: 160PX;
 }
 .main .Wrap .Wrapper2 {
   margin: 50px;
   background-color: skyblue;
-  width: 700px;
+  width: 1020px;
   height: 500px;
 }/*# sourceMappingURL=mypage.css.map */
