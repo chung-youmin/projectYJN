@@ -1,0 +1,39 @@
+.main{
+    .Wrap{
+        background-color:tomato;
+        margin: 50px 50px;
+        display: flex;
+        width: 1200px;
+        height: 600px; 
+        .Wrapper1{
+            margin: 50px;
+            background-color: skyblue;
+            width: 200px;
+            height: 500px;
+            align-items: center;
+            .box1{background-color: tomato;
+            width: 180px;
+            margin: 10px 10px;
+display: flex;
+justify-content: space-around;
+flex-direction: column;
+            li{display:block;
+                text-align: center;
+                margin-bottom: 50px;
+                a{display: block;
+                 background-color:skyblue;
+                 width: 180PX;
+                  }
+             
+             }
+
+            }
+        }
+        .Wrapper2{margin: 50px;
+            background-color: skyblue;
+            width: 700px;
+            height: 500px;
+
+        }
+    }
+}

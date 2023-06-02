@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login_2 page</title>
+    <link rel="stylesheet" href="css/main.css">
+<link rel="stylesheet" href="css/login.css">
+</head>
+<body>
+     <!-- header 고정 -->
+    <header class ="hd container">
+        <h1 class = "logo"><a href="#">logo</a></h1>
+      <div class = "hdWrap"> 
+        <div class ="topmenu">
+            <ul>
+                <li><a href="#">login</a></li>
+                <li><a href="#">sign-up</a></li>
+            </ul>
+        </div>
+        <nav class = "menu">
+            <ul>
+                <li><a href="#">menu1</a></li>
+                <li><a href="#">menu2</a></li>
+                <li><a href="#">menu3</a></li>
+                <li><a href="#">menu4</a></li>
+            </ul>
+        </nav>
+    </div>
+    </header>
+     <!-- header 고정 -->
+    <section class = "main container">
+        <div class = "box3">
+        <div class = "box4">
+            <form action="/user" method="POST" id="join">
+                <label>ID : <input type="text" id="id" name="id"
+                   placeholder="아이디를 입력해주세요">
+                </label><br> <input type="button" value="중복확인" id="Check"
+                   onclick="idCheck()"><br> <label>PW : <input type="text"
+                   id="pw" name="pw" placeholder="비밀번호를 입력해주세요">
+                </label><br> <label>PW2 : <input type="text" id="pw2" name="pw2"
+                   placeholder="비밀번호를 입력해주세요">
+                </label><br> <label>NAME : <input type="text" id="name"
+                   name="name" placeholder="이름을 입력해주세요">
+                </label><br> <label>email : <input type="text" id="name"
+                   name="name" placeholder="이메일을 입력해주세요">
+                </label><br> <input type="hidden" value="join" name="cmd"> <input
+                   type="button" value="회원가입" id="click" onclick="Click()">
+             </form>
+          
+
+        </div>
+        </div>
+
+
+
+
+
+
+
+    </section>
+
+    <footer class = "container">
+
+    </footer>
+    
+</body>
+</html>

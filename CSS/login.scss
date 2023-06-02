@@ -1,0 +1,30 @@
+.main{
+    background-color: skyblue;
+    display: flex;
+    height: 700px;
+    justify-content:flex-end ;
+    align-items: center;
+    //login_1
+    .box1{display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: tomato;
+        margin-right: 100px;
+        width: 250px;
+        height: 250px;
+    }
+    .box2{display: inline-block;
+       
+    }
+    //login_2
+    .box3{display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: tomato;
+        margin-right: 100px;
+        width: 250px;
+        height: 600px;
+
+    }
+    
+  }

@@ -1,0 +1,37 @@
+.main {
+  display: flex;
+  justify-content: left;
+  flex-direction: column;
+}
+.main .airportmenu {
+  display: block;
+  margin: 50px 0 0 50px;
+  height: 30px;
+}
+.main .airportmenu li {
+  display: inline-block;
+  text-align: center;
+}
+.main .airportmenu li a {
+  display: block;
+  background-color: tomato;
+  width: 80PX;
+  height: 25px;
+}
+.main .airportmap {
+  display: block;
+  margin: 50px 0 0 50px;
+  width: 1100px;
+  height: 400px;
+  background-color: tomato;
+}
+.main .airportinfo {
+  margin: 50px 50px 0;
+}
+.main .airportinfo .card {
+  display: inline-block;
+  width: 350px;
+  height: 200px;
+  border: 1px black solid;
+  margin-right: 20px;
+}/*# sourceMappingURL=airport.css.map */

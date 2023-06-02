@@ -1,0 +1,45 @@
+.skdWrap {
+  display: block;
+  width: 1200px;
+  height: 200px;
+  background-color: tomato;
+  margin: 50px 0 0 50px;
+}
+.skdWrap .skd {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px 50px 0 50px;
+}
+.skdWrap .skd .dep {
+  background-color: skyblue;
+  width: 350px;
+  margin-left: 50px;
+}
+.skdWrap .skd .dest {
+  background-color: skyblue;
+  width: 350px;
+  margin-right: 50px;
+}
+.skdWrap .opsWrap {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 50px 0 50px;
+}
+.skdWrap .opsWrap .opsdate {
+  background-color: skyblue;
+  width: 350px;
+  margin-left: 50px;
+}
+.skdWrap .opsWrap .search {
+  background-color: skyblue;
+  width: 100px;
+  margin-right: 50px;
+}
+
+.skdData {
+  display: block;
+  width: 1200px;
+  height: 300px;
+  background-color: tomato;
+  margin: 50px 0 0 50px;
+}/*# sourceMappingURL=schedule.css.map */
